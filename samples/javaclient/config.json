@@ -1,19 +1,21 @@
 {
-    "productId":"",
-    "dsn":"",
-    "provisioningMethod":"",
+    "productId":"pi_jarvis",
+    "dsn":"123456",
+    "provisioningMethod":"companionService",
     "wakeWordAgentEnabled":false,
     "locale":"en-US",
+    "avsHost":"https://avs-alexa-na.amazon.com",
     "companionApp":{
         "localPort":8443,
-        "sslKeyStore":"",
-        "sslKeyStorePassphrase":"",
-        "lwaUrl":"https://api.amazon.com"
+        "lwaUrl":"https://api.amazon.com",
+        "sslKeyStore":"/home/jpiat/development/WEB/alexa-avs-sample-app/samples/javaclient/certs/server/jetty.pkcs12",
+        "sslKeyStorePassphrase":"piat0183"
     },
     "companionService":{
         "serviceUrl":"https://localhost:3000",
-        "sslClientKeyStore":"",
-        "sslClientKeyStorePassphrase":"",
-        "sslCaCert":""
+        "sslClientKeyStore":"/home/jpiat/development/WEB/alexa-avs-sample-app/samples/javaclient/certs/client/client.pkcs12",
+        "sslClientKeyStorePassphrase":"piat0183",
+        "sslCaCert":"/home/jpiat/development/WEB/alexa-avs-sample-app/samples/javaclient/certs/ca/ca.crt",
+        "sessionId":"02d29399-5ba1-494a-b4b3-6a73f440ee08"
     }
 }
